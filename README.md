@@ -6,3 +6,6 @@
 3. Drag and drop to bookmark bar(Add as a bookmaklet)
 4. Visit chatwork room
 5. Fire!:fire:
+
+## Thanks
+:sushi: @yszk01234
