@@ -20,7 +20,7 @@ javascript:(function() {
   }
   let reviewers = getReviewers();
   let target = reviewers[0];
-  let result = "[To:" + target.id + "]" + target.name + "君に決めた!\n";
+  let result = "[To:" + target.id + "]" + target.name + "、君に決めた!\n";
   result += "[code]", reviewers.forEach(function(e) {
       result += e.name + ", "
   });
