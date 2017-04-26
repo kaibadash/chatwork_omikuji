@@ -25,6 +25,7 @@ javascript:(function() {
       result += e.name + ", "
   });
   result += "[/code]\n";
-  document.getElementById("_chatText").value = result;
+  document.getElementById("_chatText").value =
+    document.getElementById("_chatText").value + "\n" + result + "\n";
 })();
 
