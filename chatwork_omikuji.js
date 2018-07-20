@@ -14,7 +14,7 @@ javascript: (function () {
       return RL.rooms[id].member_dat;
     }
     function getActiveRoomId() {
-      return document.getElementById("_roomTitle").getElementsByTagName("div")[0].dataset["roomid"];
+      return document.querySelector('[data-roomid]').dataset.roomid;
     }
     const names = Object.keys(getMembersById(getActiveRoomId()))
       .map(id => ({ name: />([^<]*)</.exec(CW.getName(id))[1], id }));
